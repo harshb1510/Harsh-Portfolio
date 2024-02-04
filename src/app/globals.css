@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background:transparent;
+  --dark: #d3d3d3;
+  --primary: #22A39F;
+  --secondary: #F3EFE0;
+  --error: rgb(221, 15, 15);
+}
+
+*{
+  color: white;
+}
+
+.color {
+  border-radius: 100%;
+  margin: 0 auto;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  width: 12px;
+  height: 12px;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--secondary);
+  transition: all 0.3s ease-in-out;
+}
+
+.contain {
+  background-color: var(--dark);
+}
+
+button {
+  border-radius: 7px;
+  border: 0;
+  color: var(--secondary);
+}
+
+input {
+  background-color: var(--dark);
+  color: var(--secondary);
+}
+
+.error-msg{
+  color: var(--error);
+}
+
+.t-primary{
+  color: var(--primary);
+}
