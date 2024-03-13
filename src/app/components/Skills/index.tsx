@@ -81,10 +81,11 @@ function Skills({}: Props) {
         {
           label: TechnologiesEnum.bootstrap,
           value: 90,
-        },{
+        },
+        {
           label: TechnologiesEnum.shad,
           value: 80,
-        }
+        },
       ],
     },
     {
@@ -102,7 +103,7 @@ function Skills({}: Props) {
         {
           label: TechnologiesEnum.github,
           value: 90,
-        }
+        },
       ],
     },
 

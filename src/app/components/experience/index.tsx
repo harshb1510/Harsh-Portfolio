@@ -27,10 +27,9 @@ function Experience({}: Props) {
       date: "January 1st, 2023",
       company: "",
       url: "",
-      subtitle:
-        "FullStack Developer",
+      subtitle: "FullStack Developer",
       bullets: ["I learned nest", "I learned nest"],
-    }
+    },
   ];
 
   return (

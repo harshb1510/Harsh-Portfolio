@@ -25,7 +25,8 @@ export function Projects({}: Props) {
     {
       title: "Future Finance",
       subtitle: "A website based banking system",
-      description: "Developed a comprehensive banking system, featuring fund transfers, balance checking, and deposits. Enabled real-time transaction history views, providing users with up-to-date financial information.",
+      description:
+        "Developed a comprehensive banking system, featuring fund transfers, balance checking, and deposits. Enabled real-time transaction history views, providing users with up-to-date financial information.",
       cover: xp_bridge_1.src,
       url: "https://finance-future.netlify.app",
       technologies: [
@@ -86,15 +87,14 @@ export function Projects({}: Props) {
         TechnologiesEnum.react,
         TechnologiesEnum.node,
         TechnologiesEnum.openai,
-        TechnologiesEnum.razorpay
+        TechnologiesEnum.razorpay,
       ],
       images: [xpr1.src, xpr2.src],
     },
 
     {
       title: "GDrive",
-      subtitle:
-        "A decentralized file storage system",
+      subtitle: "A decentralized file storage system",
       description:
         "A decentralized file storage system using IPFS and Ethereum Blockchain.",
       cover: th1.src,
@@ -110,7 +110,7 @@ export function Projects({}: Props) {
         TechnologiesEnum.hardhat,
         TechnologiesEnum.ethereum,
       ],
-      images: [th1.src,th2.src],
+      images: [th1.src, th2.src],
     },
 
     {
@@ -137,17 +137,11 @@ export function Projects({}: Props) {
     {
       title: "BeSocial",
       subtitle: "A social media platform",
-      description:"A social media platform with the use of CSS.",
+      description: "A social media platform with the use of CSS.",
       cover: dfiance.src,
       url: "https://react-social-cyan.vercel.app/profile",
-      technologies: [
-        TechnologiesEnum.react,
-        TechnologiesEnum.css,
-      ],
-      primaryTechnologies: [
-        TechnologiesEnum.react,
-        TechnologiesEnum.css,
-      ],
+      technologies: [TechnologiesEnum.react, TechnologiesEnum.css],
+      primaryTechnologies: [TechnologiesEnum.react, TechnologiesEnum.css],
       images: [dfiance.src, df1.src],
     },
   ];

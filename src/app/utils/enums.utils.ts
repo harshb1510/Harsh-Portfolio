@@ -1,7 +1,7 @@
 enum TechnologiesEnum {
   ts = "TypeScript",
   node = "Node.js",
-  razorpay="Razorpay",
+  razorpay = "Razorpay",
   nest = "Nest.js",
   express = "Express",
   react = "React",
@@ -30,11 +30,11 @@ enum TechnologiesEnum {
   chrono = "React-Chrono",
   scroll = "React-Scroll",
   forms = "React-Hook-Form",
-  openai="OpenAi",
-  hardhat="Hardhat",
-  css="CSS",
+  openai = "OpenAi",
+  hardhat = "Hardhat",
+  css = "CSS",
 
-  shad='ShadCN'
+  shad = "ShadCN",
 }
 
 enum LanguagesEnum {
@@ -42,7 +42,7 @@ enum LanguagesEnum {
   ts = "TypeScript",
   java = "JAVA",
   c = "C",
-  html="HTML",
+  html = "HTML",
 }
 
 enum ThemesEnum {

@@ -1,6 +1,6 @@
 import React from "react";
 import { ConnectionItemComp } from "./ConnectionItem";
-import {  PiLinkedinLogoThin } from "react-icons/pi";
+import { PiLinkedinLogoThin } from "react-icons/pi";
 import { FaTelegram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io5";
@@ -30,7 +30,7 @@ function Connections({}: Props) {
       url: "https://t.me/harsh_bajwan",
       icon: <FaTelegram color="white" size={iconSize} />,
       username: "harsh_bajwan",
-    }
+    },
   ];
   return (
     <div
